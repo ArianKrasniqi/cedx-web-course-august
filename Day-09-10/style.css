@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.header, #footer {
+  border: 2px dashed blue;
+}
+
+.header {
+  width: 300px;
+}
+
+.second {
+  padding: 25px;  
+}
+
+#footer {
+  /* border-radius: 10px; */
+  border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 2px;
+  /* border-color: green; */
+  /* border-style: solid; */
+  border-width: 4px;
+}
+
+#footer p {
+  border: 3px solid green
+}
+
+#footer p .first span {
+  color: red;
+}
+
+#footer p.first span {
+  color: red;
+}
+

@@ -1,0 +1,19 @@
+*  {
+  margin: 0;
+}
+
+/* body, p  {
+  margin: 0;
+} */
+
+#male-radio, .female-radio {
+  border: 1px solid red;
+}
+
+div ul {
+  border: 2px dashed blue;
+}
+
+.languages ul li span{
+  color: red;
+}

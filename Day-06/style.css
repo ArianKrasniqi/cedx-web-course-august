@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'AlumniRegular';
+  src: url('./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AlumniRegularItalic';
+  src: url('./assets/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Italic.ttf');
+}
+
+div {
+  border: 2px solid red;
+  height: 60px;
+  width: 50%;
+  min-width: 130px;
+  /* max-width: 300px; */
+}
+
+.container-text {
+  border: 2px solid blue;
+  width: 50%;
+}
+
+.outside-paragraph {
+  border: 2px dashed green;
+  /* margin: 30px; */
+  /* margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-right: 300px; */
+  margin: 30px 300px 0px 15px;
+  padding: 25px 10px 0px 200px;
+}
+
+a {
+  font-family: 'AlumniRegularItalic';
+  font-size: 40px;
+}

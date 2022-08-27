@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>
+      <ul>
+        <li>Nested el 1</li>
+        <li>Nested el 2</li>
+        <li>Nested el 3</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ol type="I">
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ol>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Emri</th>
+        <th>Mbiemri</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Arian</td>
+        <td>Krasniqi</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Don</td>
+        <td>Sheqerolli</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form action="https://www.google.com/" method="GET">
+    <label for="name">Name: </label>
+    <input id="name" name="firstname" placeholder="Write your name here">
+    <br>
+    <label for="lastname">Lastname</label>
+    <input name="lastname" id="lastname" placeholder="Write your lastname here">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Write your email">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <p>Your preferable fruits: </p>
+    <label for="strawberry">Strawberry</label>
+    <input type="checkbox" value="strawberry" id="strawberry">
+    <label for="apple">Apple</label>
+    <input type="checkbox" value="apple" id="apple">
+    <br>
+    <p>Gendre</p>
+    <label for="male">Male</label>
+    <input type="radio" value="male" id="male" name="gendre">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" value="female" name="gendre">
+    <br>
+    <button type="submit">Submit form!</button>
+  </form>
+</body>
+</html>
