@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+}
+
+.first {
+  border: 1px solid red;
+  /* padding: 20px; */
+}
+
+.second {
+  border: 2px dashed green;
+  background-image: url("https://images.unsplash.com/photo-1661995514336-eff9f320526f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
