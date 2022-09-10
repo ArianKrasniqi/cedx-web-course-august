@@ -1,0 +1,48 @@
+.box {
+  border: 1px solid red;
+  background-color: lightseagreen;
+  width: 100px;
+  height: 100px;
+  /* margin: 20px 0; */
+}
+
+.box2 {
+  position: relative;
+  right: 20px;
+}
+
+.box1 {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.large-child-parent {
+  width: 50vw;
+  height: 150vh;
+  border: 1px solid red;
+  margin: 30px;
+  position: relative;
+}
+
+.large-child {
+  width: 25vw;
+  height: 110vh;
+  border: 1px solid red;
+  margin: 30px;
+}
+
+.box4 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: lightsalmon;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 60px;
+  background-color: lightgreen;
+  position: sticky;
+  top: 0px;
+}
