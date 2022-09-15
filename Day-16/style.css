@@ -43,10 +43,11 @@
   background-color: purple;
 }
 
-.services:hover {
-  background-color: purple;
+
+li:hover .dropdown {
+  display: block;
 }
 
-.services:hover .dropdown {
-  display: block;
+ul li:hover {
+  background-color: purple;
 }
