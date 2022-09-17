@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: lightcoral;
+  height: 100px;
+  width: 100px;
+  /* position: absolute; */
+  /* margin-left: 50%;
+  margin-top: 50%; */
+}
+
+body {
+  padding: 30px;
+}
+
+.box:hover {
+  transform: translateX(300px);
+  /* transition-delay: 0.2s;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(.21,1.51,.73,-0.77); */
+  transition: 0.5s ease-in-out 0.2s;
+}
+
+.sidebar {
+  height: 400px;
+  width: 200px;
+  border: 2px solid red;
+  overflow: scroll;
+  margin: 0 20px;
+}
+
+.scroll-container {
+  display: flex;
+}
