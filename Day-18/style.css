@@ -1,0 +1,58 @@
+.container {
+  padding: 30px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  cursor: pointer;
+  /* transition-duration: 3s; */
+  /* transition-delay: 2s; */
+  /* transition-timing-function: ease-out; */
+  /* transition-timing-function: cubic-bezier(.27,1.54,0,-1.48); */
+  /* transition: 5s ease-in 1s; */
+
+}
+
+.square:hover {
+  /* transform: rotate(45deg); */
+  /* transform: translateX(300px); */
+  /* background-color: lightblue; */
+  animation-name: moveSquare;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.text {
+  width: 120px;
+  height: 30vh;
+  border: 1px solid;
+  overflow: auto;
+}
+
+/* @keyframes moveSquare {
+  from {
+    transform: translateX(0px);
+  } to {
+    transform: translateX(50vw);
+  }
+} */
+
+@keyframes moveSquare {
+  0% {
+    transform: translateX(0px);
+    background-color: lightcoral;
+  } 
+  80% {
+    transform: translateX(50vw);
+    background-color: yellow;
+  }
+  100% {
+    transform: translateX(40vw);
+    background-color: aquamarine;
+  }
+}
