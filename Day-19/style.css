@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sky Section */
+.sky {
+  height: 30vh;
+  background-color: lightskyblue;
+  position: relative;
+}
+
+.cloud {
+  position: absolute;
+  top: 30%;
+  animation-name: cloudMovement;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
+
+.sky .cloud:first-child {
+  top: 0%;
+  animation-duration: 10s;
+}
+
+/* Grass Section */
+.grass {
+  height: 22.5vh;
+  background-color: green;
+}
+
+/* Route Section */
+.route {
+  height: 25vh;
+  background-color: darkgrey;
+  border-top: 6px solid white;
+  border-bottom: 6px solid white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.route .lines {
+  border: 3px dashed white;
+  width: 100%;
+}
+
+.kart {
+  margin-left: 20px;
+  animation-name: kartMovement;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.mario1 {
+  animation-duration: 3s;
+}
+.mario2 {
+  animation-duration: 4s;
+}
+
+@keyframes kartMovement {
+  from {
+    transform: translateX(-10vw);
+  } to {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes cloudMovement {
+  from {
+    transform: translate(-10vw, 0);
+  } to {
+    transform: translate(100vw, 30%);
+  }
+}
