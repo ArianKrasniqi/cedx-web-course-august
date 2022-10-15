@@ -59,7 +59,7 @@ let productPrice = `Product price with tax is ${price * (1 + tax)} EUR.`
 console.log(productPrice)
 
 
-const name = 'Mose';
+const name = 'Moseeee';
 const age = 10;
 const sentence = 'My cat ' + name + ' is ' + (age * 4 + 17) + ' years old in cat years.';
 console.log(sentence)
