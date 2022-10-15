@@ -1,6 +1,8 @@
+// Comment in line 1
 let sum = 20;
 // sum = sum + 7;
 
+// New Comment Added
 // Shorthand
 // sum += 7;
 sum += 7;
