@@ -11,7 +11,7 @@ let part11 = z.substring(0, 12)
 console.log(part11)
 
 let newZ = z.replace('cedx', 'ced');
-console.log(newZ)
+console.log('++', newZ)
 
 let upperZ = z.toUpperCase()
 let lowerZ = z.toLowerCase()
